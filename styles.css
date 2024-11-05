@@ -232,7 +232,7 @@ h2 {
     line-height: 1.4;
 }
 
-/* Responsive styling for mobile view */
+/* Webpage styling for mobile view */
 @media (max-width: 768px) {
     #intro-section {
         grid-template-columns: 1fr; 
@@ -261,4 +261,9 @@ h2 {
         margin-top: 10px;
         max-width: 100%; 
     }
+
+    #project-images .team-grid {
+        grid-template-columns: 1fr; 
+    }
 }
+
