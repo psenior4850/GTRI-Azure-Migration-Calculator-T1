@@ -133,6 +133,51 @@ h2 {
     font-size: 15px;
 }
 
+
+/* Tech Stack styling */
+#project-images .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.stack-pic img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+/* Orgs styling */
+#project-images .team-grid .member-info h3 {
+    font-size: 1em;
+    color: #000000;
+}
+
+.org-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.org-member {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.org-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.org-info {
+    font-size: 15px;
+}
+
 /* Project Video styling */
 #project-video video {
     width: 100%;
@@ -141,12 +186,6 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
-}
-
-/* Images styling */
-#project-images .team-grid .member-info h3 {
-    font-size: 1em;
-    color: #000000;
 }
 
 /* Features Section Styling */
@@ -166,7 +205,6 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
-    
 }
 
 .feature-box {
