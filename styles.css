@@ -133,11 +133,9 @@ h2 {
     font-size: 15px;
 }
 
-
-/* Tech Stack styling */
 #project-images .team-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
@@ -145,6 +143,33 @@ h2 {
     width: 100px;
     height: 100px;
     margin-bottom: 15px;
+}
+
+/* Tech Stack styling */
+#stack-features {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.stack-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.stack-feature-box img{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
 }
 
 /* Orgs styling */
@@ -261,9 +286,4 @@ h2 {
         margin-top: 10px;
         max-width: 100%; 
     }
-
-    #project-images .team-grid {
-        grid-template-columns: 1fr; 
-    }
 }
-
