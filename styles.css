@@ -9,6 +9,7 @@
 body {
     background-color: #f4f4f4;
     color: #000000;
+    text-align: center;
 }
 
 /* Intro styling */
@@ -25,7 +26,7 @@ body {
 }
 
 #intro-section .left {
-    text-align: left;
+    text-align: center;
     padding-right: 20px;
 }
 
@@ -143,18 +144,9 @@ h2 {
 }
 
 /* Images styling */
-#project-images .image-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-#project-images .image-gallery img {
-    width: 200px; 
-    height: auto; 
-    object-fit: cover; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+#project-images .team-grid .member-info h3 {
+    font-size: 1em;
+    color: #000000;
 }
 
 /* Features Section Styling */
@@ -174,6 +166,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
+    
 }
 
 .feature-box {
