@@ -146,6 +146,7 @@ h2 {
 }
 
 /* Tech Stack styling */
+/* Tech Stack styling */
 #stack-features {
     padding: 20px;
     max-width: 900px;
@@ -156,21 +157,30 @@ h2 {
 .stack-feature-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-}
+    gap: 20px; }
 
-.stack-feature-box img{
+.stack-feature-box {
     background: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 150px;
+    max-height: 150px;
+    width: 150px; 
+    text-align: center;
+    box-sizing: border-box;
 }
+
+.stack-feature-box img {
+    width: 100%;
+    height: auto;
+    max-width: 100px; 
+    max-height: 100px;
+}
+
 
 /* Orgs styling */
 #project-images .team-grid .member-info h3 {
