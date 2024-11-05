@@ -4,12 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 body {
     background-color: #f4f4f4;
     color: #000000;
-    text-align: center;
 }
 
 /* Intro styling */
