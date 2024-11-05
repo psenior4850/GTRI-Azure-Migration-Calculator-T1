@@ -200,3 +200,34 @@ h2 {
     color: #555555;
     line-height: 1.4;
 }
+
+/* Responsive styling for mobile view */
+@media (max-width: 768px) {
+    #intro-section {
+        grid-template-columns: 1fr; 
+        text-align: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    #intro-section .left {
+        padding-right: 0;
+    }
+
+    #intro-section .left h1 {
+        font-size: 1.8em; 
+    }
+
+    #intro-section .left p {
+        font-size: 1em;
+    }
+
+    .learn-more-button {
+        margin-top: 10px; 
+    }
+
+    #intro-section .right .demo-video {
+        margin-top: 10px;
+        max-width: 100%; 
+    }
+}
